@@ -30,3 +30,9 @@ Sales, Quantity, Discount, Profit
 Order Month (added)
 Order Year (added)
 Profit Margin (%) = Profit / Sales * 100 (added)
+
+Tech Stack:
+
+Python: pandas, numpy
+Visualization: matplotlib, seaborn
+Next step: building a Power BI dashboard 

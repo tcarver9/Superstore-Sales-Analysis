@@ -36,3 +36,36 @@ Tech Stack:
 Python: pandas, numpy
 Visualization: matplotlib, seaborn
 Next step: building a Power BI dashboard 
+
+Steps I Performed:
+
+1) Load data
+df = pd.read_csv(r"C:\Users\diirt\Downloads\superstore_sales.csv", encoding='latin1')
+print(df.info())
+print(df.describe())
+
+2) Clean the data:
+Removed duplicates and missing values
+Converted date columns into proper datetime format
+Verified that numeric fields were in the right data type
+
+3) Feature engineering
+df['Order Month'] = df['Order Date'].dt.month_name()
+df['Order Year'] = df['Order Date'].dt.year
+df['Profit Margin (%)'] = (df['Profit'] / df['Sales']) * 100
+
+4) Analysis:
+Sales vs Profit by Category: helped me identify which categories sell the most vs which are actually profitable.
+Profit by Region: showed which regions drive performance.
+Discount vs Profit: revealed that heavy discounting often leads to negative profit.
+Monthly Sales Trend: displayed seasonal peaks around holidays.
+Top 10 Most Profitable Products: helped pinpoint which SKUs generate the most value.
+Profit Margin by Customer Segment: compared how different customer types perform.
+
+5) Findings:
+Some categories have high revenue but very thin margins, meaning revenue doesn’t always equal profitability.
+Profit is uneven across regions; the West region performs the best while the South lags behind.
+Discounts above roughly 20% start to hurt profitability.
+A small number of products contribute a large share of total profit, so focusing on those SKUs makes sense.
+The Corporate segment has a slightly higher margin than the Consumer segment, showing potential for B2B growth.
+

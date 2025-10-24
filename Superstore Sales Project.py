@@ -88,3 +88,29 @@ plt.ylabel('Profit Margin (%)')
 plt.xlabel('Customer Segment')
 plt.show()
 
+df['Discount Bucket'] = pd.cut(
+    df['Discount'],
+    bins=[0, 0.1, 0.2, 0.3, 1.0],
+    labels=['0-10%', '10-20%', '20-30%', '30%+']
+)
+
+discount_margin = (
+    df.groupby('Discount Bucket')
+      .agg(
+          Avg_Profit_Margin=('Profit Margin (%)', 'mean'),
+          Avg_Sales=('Sales', 'mean')
+      )
+      .reset_index()
+)
+
+plt.figure(figsize=(8,5))
+sns.barplot(
+    data=discount_margin,
+    x='Discount Bucket',
+    y='Avg_Profit_Margin'
+)
+plt.title('Average Profit Margin by Discount Level')
+plt.ylabel('Avg Profit Margin (%)')
+plt.xlabel('Discount Level')
+plt.show()
+

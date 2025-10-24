@@ -70,10 +70,11 @@ Monthly Sales Trend: displayed seasonal peaks around holidays.
 Top 10 Most Profitable Products: helped pinpoint which SKUs generate the most value.
 Profit Margin by Customer Segment: compared how different customer types perform.
 
-5) Findings:
-Some categories have high revenue but very thin margins, meaning revenue doesn’t always equal profitability.
-Profit is uneven across regions; the West region performs the best while the South lags behind.
-Discounts above roughly 20% start to hurt profitability.
-A small number of products contribute a large share of total profit, so focusing on those SKUs makes sense.
-The Corporate segment has a slightly higher margin than the Consumer segment, showing potential for B2B growth.
+5) Business Recommendations:
+- Limit discounts above 20 percent on low-margin categories, since margin drops sharply once discounts get too aggressive.
+- Shift marketing and inventory priority toward top 10 most profitable SKUs instead of just top sellers, to protect contribution margin.
+- Investigate why the South region underperforms in profit. Possible causes include shipping cost, discounting, or product mix.
+- Treat higher-margin customer segments as priority for account-based outreach and retention efforts.
+- Plan inventory and promotions aggressively around Q4 seasonal spikes, since sales consistently increase at year-end.
+
 

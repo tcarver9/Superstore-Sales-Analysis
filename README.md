@@ -9,7 +9,7 @@ In this project, I analyzed retail transaction data to understand what drives sa
 - Different customer segments do not deliver the same margin per dollar sold, which matters for targeting.
 
 
-The main workflow I followed includes:
+-The main workflow I followed includes:
 
 Loading and cleaning data using pandas
 Creating new features such as month, year, and profit margin
@@ -17,7 +17,7 @@ Performing exploratory data analysis and visualization
 Explaining key business findings and recommendations
 All of the work was done in Python using pandas, numpy, seaborn, and matplotlib.
 
-Business Questions Answered:
+-Business Questions Answered:
 
 Which product categories generate the most revenue and which are actually the most profitable?
 Which regions perform best and which ones underperform?
@@ -26,10 +26,10 @@ What are the top 10 most profitable products?
 Which customer segment has the highest profit margin?
 Are there any seasonal trends that affect sales?
 
-Dataset:
+-Dataset:
 The dataset is a Superstore-style retail dataset with historical order-level information: https://www.kaggle.com/datasets/vivek468/superstore-dataset-final?resource=download
 
-Key columns include:
+-Key columns include:
 
 Order Date, Ship Date
 Region, State, Segment (Consumer, Corporate, Home Office)
@@ -39,7 +39,7 @@ Order Month (added)
 Order Year (added)
 Profit Margin (%) = Profit / Sales * 100 (added)
 
-Tech Stack:
+-Tech Stack:
 
 Python: pandas, numpy
 Visualization: matplotlib, seaborn

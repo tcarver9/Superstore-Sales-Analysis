@@ -17,3 +17,16 @@ How do discounts affect total profit and margin?
 What are the top 10 most profitable products?
 Which customer segment has the highest profit margin?
 Are there any seasonal trends that affect sales?
+
+Dataset:
+The dataset is a Superstore-style retail dataset with historical order-level information: https://www.kaggle.com/datasets/vivek468/superstore-dataset-final?resource=download
+
+Key columns include:
+
+Order Date, Ship Date
+Region, State, Segment (Consumer, Corporate, Home Office)
+Category, Sub-Category, Product Name
+Sales, Quantity, Discount, Profit
+Order Month (added)
+Order Year (added)
+Profit Margin (%) = Profit / Sales * 100 (added)

@@ -1,6 +1,14 @@
 # Superstore-Sales-Analysis
 In this project, I analyzed retail transaction data to understand what drives sales, profit, and profit margin across products, regions, and customer segments.
 
+1) Results:
+- The West region is the strongest profit center, while the South underperforms and likely needs pricing or cost attention.
+- Certain products generate very high profit and should be protected/prioritized in inventory and marketing.
+- High discounting is linked to negative profit in several categories, which means promotions are sometimes destroying margin instead of driving smart growth.
+- Sales peak late in the year, which supports seasonal planning and inventory ramp-up toward Q4.
+- Different customer segments do not deliver the same margin per dollar sold, which matters for targeting.
+
+
 The main workflow I followed includes:
 
 Loading and cleaning data using pandas
